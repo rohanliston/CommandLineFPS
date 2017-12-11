@@ -8,7 +8,8 @@
 
 ### Installation
 
-* Ubuntu: `sudo apt-get install cmake libncursesw5-dev`
+* Ubuntu: `sudo apt-get install pkg-config cmake libncursesw5-dev`
+* Arch: `pacman -S pkg-config cmake ncurses`
 * Other distros: `¯\_(ツ)_/¯`
 
 ## Build
@@ -16,7 +17,7 @@
 ```sh
 mkdir build
 cd build
-cmake ..
+cmake ../
 make
 ```
 
