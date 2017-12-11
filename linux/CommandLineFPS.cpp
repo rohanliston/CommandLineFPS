@@ -50,7 +50,7 @@
 #include <vector>
 #include <algorithm>
 #include <chrono>
-#include <ncursesw/ncurses.h>
+#include <ncurses.h>
 #include <sstream>
 #include <math.h>
 
