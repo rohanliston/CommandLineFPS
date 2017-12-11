@@ -16,4 +16,4 @@ set(SOURCE_FILES CommandLineFPS.cpp)
 add_executable(CommandLineFPS ${SOURCE_FILES})
 
 # Link ncursesw library
-target_link_libraries( CommandLineFPS ${CURSES_LIBRARIES} )
+target_link_libraries( CommandLineFPS ${CURSES_LIBRARIES} m )
